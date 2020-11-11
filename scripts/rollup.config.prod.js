@@ -16,7 +16,7 @@ export default {
     input: './src/index.js',
 
     output: {
-        file: './dist/performance.min.js',
+        file: './lib/perf.js',
         format: 'umd',
         name: 'performance.js'
     },

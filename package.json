@@ -1,6 +1,6 @@
 {
   "name": "fe-monitor-perf",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-rc.2",
   "description": "前端性能监控",
   "main": "dist/performance.min.js",
   "scripts": {
