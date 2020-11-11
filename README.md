@@ -38,7 +38,7 @@ random | 抽样上报（0-1） | float |
 
 # 上报数据格式
 
-```js
+```json
     {
         id: ***,
         type: 1,
