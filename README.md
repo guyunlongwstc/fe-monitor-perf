@@ -40,47 +40,46 @@ random | 抽样上报（0-1） | float |
 
 ```json
     {
-        id: ***,
-        type: 1,
-        time: 1566527694723,
-        isFirstPage: false,
-        currentPage: "http://0.0.0.0:8889/#/process/list",
-        prePage: "http://localhost.bcetest.baidu.com:8889/demo",
-        firstPagePerf: {
-            appcache: 0,
-            connect: 0,
-            userReady: 166,
-            domReady: 548,
-            initDomTree: 154,
-            loadEvent: 0,
-            loadPage: 714,
-            lookupDomain: 0,
-            readyStart: 4,
-            redirect: 0,
-            request: 5,
-            ttfb: 9,
-            unloadEvent: 0,
-            whitePage: 109
+        "type": 1,
+        "time": 1566527694723,
+        "isFirstPage": false,
+        "currentPage": "http://0.0.0.0:8889/#/process/list",
+        "prePage": "http://localhost.bcetest.baidu.com:8889/demo",
+        "firstPagePerf": {
+            "appcache": 0,
+            "connect": 0,
+            "userReady": 166,
+            "domReady": 548,
+            "initDomTree": 154,
+            "loadEvent": 0,
+            "loadPage": 714,
+            "lookupDomain": 0,
+            "readyStart": 4,
+            "redirect": 0,
+            "request": 5,
+            "ttfb": 9,
+            "unloadEvent": 0,
+            "whitePage": 109
         },
-        hashPagePerf: {
-            domTime: 225.9900000062771
+        "hashPagePerf": {
+            "domTime": 225.9900000062771
         },
-        resourceList: [
+        "resourceList": [
             {
-                decodedBodySize: 6376,
-                duration: "14.87",
-                method: "GET",
-                name: "https://bce.bdstatic.com/console/dist/img/process.svg",
-                nextHopProtocol: "h2",
-                type: "css"
+                "decodedBodySize": 6376,
+                "duration": "14.87",
+                "method": "GET",
+                "name": "https://bce.bdstatic.com/console/dist/img/process.svg",
+                "nextHopProtocol": "h2",
+                "type": "css"
             },
             {
-                decodedBodySize: 4402,
-                duration: "5.06",
-                method: "GET",
-                name: "http://0.0.0.0:8889/api/process/list?pageNo=1&pageSize=10",
-                nextHopProtocol: "http/1.1",
-                type: "xmlhttprequest"
+                "decodedBodySize": 4402,
+                "duration": "5.06",
+                "method": "GET",
+                "name": "http://0.0.0.0:8889/api/process/list?pageNo=1&pageSize=10",
+                "nextHopProtocol": "http/1.1",
+                "type": "xmlhttprequest"
             }
         ]
     }
